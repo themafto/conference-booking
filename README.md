@@ -5,9 +5,9 @@ This project showcases my practical experience in building and deploying a scala
 **Here's what I achieved:**
 
 * **Robust Architecture:** Designed a microservices-based architecture leveraging S3, CloudFront, EC2, RDS (PostgreSQL), ElastiCache (Redis), and VPC to ensure scalability, security, and performance.
-  * The architecture diagram [link to diagram] provides a detailed visual representation.
+  * The architecture diagram provides a detailed visual representation.
 * **Efficient Frontend Delivery:** Implemented a static frontend hosted on S3 and delivered through CloudFront, optimizing global content caching and delivery for improved user experience. 
-* **Streamlined Deployment:**  Utilized Docker to containerize the backend (developed in [Your Language/Framework]) for consistent deployments across environments.
+* **Streamlined Deployment:**  Utilized Docker to containerize the backend for consistent deployments across environments.
   *  Configured robust CI/CD pipelines within GitLab to automate the build, test, and deployment processes, enabling rapid iteration and delivery.
 * **Database Optimization:** Leveraged PostgreSQL on RDS for persistent data storage of conference rooms, users, and bookings. Implemented Redis caching via ElastiCache to enhance API performance and responsiveness.
 * **Security Focus:** Deployed resources across public and private subnets within a VPC to ensure network isolation and enhanced security.
